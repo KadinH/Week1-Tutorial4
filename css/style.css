@@ -1,24 +1,53 @@
 html{
-    max-width: 100%;
-    margin: auto;
+    width: 100%;
 }
 ul{
-    margin-top: 20px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 20px;
+    background: #3f3f3f;
+    height: 50px;
 }
 ul a{
-    color: #000;
-    background: lightblue;
+    font-family: Verdana;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px;
+    color: #FFF;
     width: 200px;
-    margin: auto;
-    padding: 10px 20px;
+}
+ul a:hover{
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 5px;
 }
 body{
-    background: #fff;
+    width: 100%;
+    background: #5bc415;
     text-align: center;
 }
-.rounded a{
-    border-radius: 7px;
+h1{
+    color: #FFF;
+    font-family: Courier New, Courier, monospace;
+    font-weight: lighter;
+}
+table{
+    border-top: 1px solid white;
+    padding: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+table .row1, table .row2{
+    width: 100px;
+    text-align: center;
 }
 form{
-    background: lightblue;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+form input{
+    margin-bottom: 10px;
 }

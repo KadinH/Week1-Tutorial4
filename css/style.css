@@ -1,6 +1,7 @@
 html{
     width: 100%;
 }
+
 ul{
     margin-top: -8px;
     margin-left: -8px;
@@ -9,6 +10,7 @@ ul{
     background: #3f3f3f;
     height: 50px;
 }
+
 ul a{
     font-family: Verdana;
     text-transform: uppercase;
@@ -19,35 +21,52 @@ ul a{
     color: #FFF;
     width: 200px;
 }
+
 ul a:hover{
     border-bottom: 3px solid lightgrey;
     padding-bottom: 5px;
 }
+
 body{
     width: 100%;
     background: #5bc415;
     text-align: center;
 }
+
 h1{
     color: #FFF;
     font-family: Courier New, Courier, monospace;
     font-weight: lighter;
 }
+
 table{
     border-top: 1px solid white;
     padding: 50px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
+
 table .row1, table .row2{
     width: 100px;
     text-align: center;
 }
+
 form{
     background: none;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
 form input{
     margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 40px;
+    text-align: left;
+
+}
+
+footer ul{
+    width: 80%;
 }
